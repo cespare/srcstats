@@ -41,7 +41,7 @@ It reads from stdin as well:
     chars / non-empty line              23.5
     mean non-empty line length          38.6
 
-It's pretty snappy; here's srcstat analyzing the Linux source tree:
+It's pretty snappy; here's srcstats analyzing the Linux source tree:
 
     $ find $REPOS/linux -name '*.c' -o -name '*.h' | /usr/bin/time srcstats
     files                              35406
