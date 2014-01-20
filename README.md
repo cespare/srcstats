@@ -43,7 +43,7 @@ It reads from stdin as well:
 
 It's pretty snappy; here's srcstats analyzing the Linux source tree:
 
-    $ find $REPOS/linux -name '*.c' -o -name '*.h' | /usr/bin/time srcstats
+    $ find $REPOS/linux -name '*.c' -o -name '*.h' | time srcstats
     files                              35406
     total size                        425MiB
     mean file size                     12KiB
